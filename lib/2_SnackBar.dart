@@ -29,7 +29,7 @@ class _SnackbarState extends State<Snackbar> {
           );
           ScaffoldMessenger.of(context).showSnackBar(snackbar);
         },
-            child: const Text("ShowSnackBar")),
+            child: const Text("ShowSnackBar and you came from Drawer?")),
       ),
     );
   }
